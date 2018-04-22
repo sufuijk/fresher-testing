@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+form{
+	margin-top: 30px;
+}
+label{
+	color: lightgray;
+}
+legend{
+	font-size: 2em;
+	color: #0E3B6B;
+	border: none;
+}
+input[class="form-control"],
+input[class="form-control"]:focus{
+	border: none;
+	border-bottom: 1px lightgray solid ;
+	border-radius: 0px;
+	box-shadow: none;
+	font-size: 1.3em;
+}
+
+textarea[class="form-control"],
+textarea[class="form-control"]:focus{
+	border: none;
+	border-bottom: 1px lightgray solid ;
+	border-radius: 0px;
+	box-shadow: none;
+	resize: none;
+	font-size: 1.3em;
+
+}
+#content{
+	margin-top: 20px;
+	border: 1px solid lightgreen;
+}
+.button-send,
+.button-send:hover{
+	float: right;
+	background: slateblue;
+	border: slateblue;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+}
+#icon-sender{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+}
+#left-page{
+	height: 500px;
+}
+.list-contact{
+	margin-top: 60px;
+}
+p{
+	margin: 30px 50px 30px 30px;
+	font-size: 18px;
+}
+.icon-contact{
+	margin-right: 5px;
+	position: absolute;
+}
+#right-page{
+	padding-top: 10px;
+	padding-left: 50px;
+	height: 500px;
+	background-color: #103F6E;
+	color: #fff;
+
+}
+.list-social{
+	position: absolute;
+	bottom: 30px;
+}
+.list-social img{
+	margin: 0px 10px;
+}
+.swal-footer{
+	text-align: center;
+}
+.swal-modal{
+	border-radius: 0px;
+	width: 300px;
+}
+.button-alert-success button,
+.button-alert-success button:focus{
+	background: #35BD26;
+	color: #fff;
+	border: none !important;
+	font-weight: normal;
+	border-radius: 20px;
+	width: 200px;
+	box-shadow: none;
+}
+.button-alert-error button,
+.button-alert-error button:focus{
+	background: #FF4433;
+	color: #fff;
+	border: none !important;
+	font-weight: normal;
+	border-radius: 20px;
+	width: 200px;
+	box-shadow: none;
+}
